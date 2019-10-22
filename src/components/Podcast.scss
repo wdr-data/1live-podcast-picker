@@ -32,7 +32,7 @@
 
 .podcast__wrapper__content__details {
   margin-top: -5px;
-  padding: 15px 15px 15px 15px;
+  padding: 35px 15px 0px 15px;
   text-align: center;
 }
 
@@ -84,13 +84,10 @@
 }
 
 .image-gallery-bullets {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  bottom: 3px;
 
   .image-gallery-bullet {
-    $size: 5px;
+    $size: 11px;
     border: none;
     box-shadow: none;
     background-color: #c4cbd0;

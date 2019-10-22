@@ -41,8 +41,6 @@ interface PodcastProps extends RouteComponentProps {
 const Podcast: React.FC<PodcastProps> = props => {
   const name = props.name || "";
 
-  const [currentPage, setCurrentPage] = useState(0);
-
   const galleryRef = useRef<ImageGallery>(null);
 
   const podcast = useMemo(() => name && (podcastsJson[name] as any), [name]);
@@ -83,17 +81,16 @@ const Podcast: React.FC<PodcastProps> = props => {
         ref={galleryRef}
         items={pages}
         lazyLoad={false}
-        showBullets={false}
+        showBullets={true}
         showFullscreenButton={false}
         showPlayButton={false}
         showThumbnails={false}
         showIndex={false}
         showNav={false}
         infinite={false}
-        onSlide={setCurrentPage}
       />
     ),
-    [pages, setCurrentPage, galleryRef]
+    [pages, galleryRef]
   );
 
   return (
@@ -108,18 +105,6 @@ const Podcast: React.FC<PodcastProps> = props => {
           <div className="podcast__wrapper__content__details">
             <h1 className="podcast__wrapper__content__details--headline">{podcast.title}</h1>
             <p className="podcast__wrapper__content__details--sub-headline">{podcast.host}</p>
-          </div>
-
-          <div className="image-gallery-bullets">
-            {[0, 1].map(pageIndex => (
-              <div
-                className={classNames("image-gallery-bullet", pageIndex === currentPage && "active")}
-                onClick={() => {
-                  setCurrentPage(pageIndex);
-                  galleryRef.current && galleryRef.current.slideToIndex(pageIndex);
-                }}
-              />
-            ))}
           </div>
 
           <div className="podcast__wrapper__content__details--platforms">
