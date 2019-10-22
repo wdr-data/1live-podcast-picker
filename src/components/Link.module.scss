@@ -1,0 +1,58 @@
+@import "./colors.scss";
+
+.item {
+  border-top: #e1e1e1 1px solid;
+
+  display: grid;
+  grid-template-columns: auto 120px;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+
+  div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      display: block;
+      margin: 0;
+      flex-grow: 0;
+      min-width: 15%;
+      height: 2.5rem;
+    }
+    span {
+      text-align: left;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding-left: 0.8rem;
+    }
+  }
+  a {
+    display: block;
+    min-width: 30%;
+    height: 100%;
+
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid $magenta;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.1s ease-in-out;
+    transition-property: background-color, color;
+    color: $magenta;
+
+    -webkit-tap-highlight-color: transparent;
+
+    span {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    &:active {
+      background-color: $magenta;
+      color: white;
+    }
+  }
+}

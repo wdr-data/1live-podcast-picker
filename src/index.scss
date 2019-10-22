@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Franklin Gothic Heavy";
+  src: url(./fonts/FranklinGothic-Hvy-webfont.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  animation: fadeIn 1s;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Franklin Gothic Heavy", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  margin: 25px 15px 15px 25px;
+  border: 1px solid #d3d3d3;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

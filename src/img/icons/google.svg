@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;fill-opacity:0.2;}
+	.st3{fill:#263238;fill-opacity:0.15;}
+	.st4{fill:#FAB908;}
+	.st5{fill:#0066D9;}
+	.st6{fill:#4285F4;}
+	.st7{fill:#EA4335;}
+	.st8{fill:#34A853;}
+</style>
+<title>F01_listen_on_icon</title>
+<desc>Created with Sketch.</desc>
+<g id="F01_listen_on_icon">
+	<g id="Group">
+		<g id="logo_google_search_round_48dp">
+			<polygon id="Shape" class="st0" points="0,0 64,0 64,64 0,64 			"/>
+			<circle id="Oval" class="st1" cx="32" cy="32" r="30.9"/>
+			<path id="Shape_1_" class="st2" d="M32,1.4c17,0,30.9,13.8,30.9,30.8V32C62.9,14.9,49.1,1.1,32,1.1C14.9,1.1,1.1,14.9,1.1,32v0.2
+				C1.1,15.1,15,1.4,32,1.4z"/>
+			<path id="Shape_2_" class="st3" d="M32,62.6c17,0,30.9-13.8,30.9-30.8V32c0,17.1-13.9,30.9-30.9,30.9C14.9,62.9,1.1,49.1,1.1,32
+				v-0.2C1.1,48.9,15,62.6,32,62.6z"/>
+		</g>
+		<g id="_logo_Podcasts_192px" transform="translate(10.901099, 10.901099)">
+			<polygon id="Shape_3_" class="st4" points="18.5,13.4 18.5,19.8 18.5,22.4 18.5,28.8 23.7,28.8 23.7,22.4 23.7,19.8 23.7,13.4 
+							"/>
+			<circle id="Oval_1_" class="st5" cx="2.6" cy="19.7" r="2.6"/>
+			<circle id="Oval_2_" class="st5" cx="2.6" cy="22.5" r="2.6"/>
+			<rect id="Rectangle-path" x="0" y="19.7" class="st5" width="5.3" height="2.9"/>
+			<circle id="Oval_3_" class="st6" cx="39.6" cy="22.5" r="2.6"/>
+			<circle id="Oval_4_" class="st6" cx="39.6" cy="19.7" r="2.6"/>
+			<rect id="Rectangle-path_1_" x="36.9" y="19.7" class="st6" width="5.3" height="2.9"/>
+			<circle id="Oval_5_" class="st7" cx="11.7" cy="28.3" r="2.6"/>
+			<circle id="Oval_6_" class="st7" cx="11.7" cy="31.2" r="2.6"/>
+			<rect id="Rectangle-path_2_" x="9.1" y="28.3" class="st7" width="5.3" height="2.9"/>
+			<circle id="Oval_7_" class="st7" cx="11.7" cy="11" r="2.6"/>
+			<circle id="Oval_8_" class="st7" cx="11.7" cy="20.4" r="2.6"/>
+			<rect id="Rectangle-path_3_" x="9.1" y="11" class="st7" width="5.3" height="9.4"/>
+			<circle id="Oval_9_" class="st8" cx="30.4" cy="13.9" r="2.6"/>
+			<circle id="Oval_10_" class="st8" cx="30.4" cy="11" r="2.6"/>
+			<rect id="Rectangle-path_4_" x="27.8" y="11" class="st8" width="5.3" height="2.9"/>
+			<circle id="Oval_11_" class="st4" cx="21.1" cy="5.5" r="2.6"/>
+			<circle id="Oval_12_" class="st4" cx="21.1" cy="2.6" r="2.6"/>
+			<rect id="Rectangle-path_5_" x="18.5" y="2.6" class="st4" width="5.3" height="2.9"/>
+			<circle id="Oval_13_" class="st4" cx="21.1" cy="39.6" r="2.6"/>
+			<circle id="Oval_14_" class="st4" cx="21.1" cy="36.7" r="2.6"/>
+			<rect id="Rectangle-path_6_" x="18.5" y="36.7" class="st4" width="5.3" height="2.9"/>
+			<circle id="Oval_15_" class="st8" cx="30.4" cy="31.2" r="2.6"/>
+			<circle id="Oval_16_" class="st8" cx="30.4" cy="21.8" r="2.6"/>
+			<rect id="Rectangle-path_7_" x="27.8" y="21.8" class="st8" width="5.3" height="9.4"/>
+			<circle id="Oval_17_" class="st4" cx="21.1" cy="13.4" r="2.6"/>
+			<circle id="Oval_18_" class="st4" cx="21.1" cy="28.8" r="2.6"/>
+		</g>
+	</g>
+</g>
+</svg>
