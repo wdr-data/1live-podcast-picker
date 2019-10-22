@@ -79,7 +79,7 @@ class Link extends Component {
             <span>{this.platforms[this.props.for].text}</span>
           </div>
 
-          <a href={this.props.link} target="_blank _noopener" onTouchStart={() => {}}>
+          <a href={this.props.link} target="_blank _noopener" onTouchStart={() => true}>
             <span>{this.platforms[this.props.for].buttonText}</span>
           </a>
         </div>
