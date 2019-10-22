@@ -46,7 +46,7 @@ class Link extends Component {
       rss: {
         logo: rssLogo,
         text: "RSS-Feed",
-        buttonText: "Abspielen"
+        buttonText: "Abonnieren"
       },
       spotify: {
         logo: spotifyLogo,
