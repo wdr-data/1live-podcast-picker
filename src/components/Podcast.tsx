@@ -121,7 +121,11 @@ const Podcast: React.FC<PodcastProps> = props => {
             </a>
           </div>
           <div className="podcast__wrapper__content__footer">
-            <span>Impressum | Datenschutz | ©WDR 2019</span>
+            <span>
+              <a href="https://www1.wdr.de/radio/1live/einslive-impressum-100.html">Impressum</a> |{" "}
+              <a href="https://www1.wdr.de/radio/1live/datenschutz-130.html">Datenschutz</a> |{" "}
+              <a href="https://www1.wdr.de/copyright/index.html">©WDR 2019</a>
+            </span>
           </div>
         </div>
       </div>
