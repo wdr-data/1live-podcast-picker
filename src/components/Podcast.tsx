@@ -130,7 +130,7 @@ const Podcast: React.FC<PodcastProps> = props => {
               );
             })}
             <a
-              href="https://www1.wdr.de/radio/1live/magazin/podcasts/index.html"
+              href="/alle"
               className="podcast__wrapper__content__details--more"
             >
               <span>Alle 1LIVE Podcasts</span>
