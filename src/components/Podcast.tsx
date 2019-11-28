@@ -1,7 +1,6 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useMemo, useRef } from "react";
 import { RouteComponentProps } from "@reach/router";
 import ImageGallery from "react-image-gallery";
-import classNames from "classnames";
 
 import Link from "./Link";
 
@@ -15,10 +14,13 @@ const images = Object.keys(podcastsJson).reduce((acc: any, current: string) => {
   return acc;
 }, {});
 
-const imagesIE = Object.keys(podcastsJson).reduce((acc: any, current: string) => {
-  acc[current] = require(`../img/podcasts/IE/${current}.jpg`);
-  return acc;
-}, {});
+const imagesIE = Object.keys(podcastsJson).reduce(
+  (acc: any, current: string) => {
+    acc[current] = require(`../img/podcasts/IE/${current}.jpg`);
+    return acc;
+  },
+  {}
+);
 
 // Wenn der Nutzer den IE benutzt, funktioniert der CSS-Effekt "blur" für den Hintergrund nicht
 // Deshalb wird wenn der IE genutzt wird, ein geblurrtes Image als Hintergrund geladen und nicht per CSS verändert
@@ -59,21 +61,23 @@ const Podcast: React.FC<PodcastProps> = props => {
         />
       </div>
     ),
-    [podcast]
+    [podcast, podcastImage]
   );
   const detailPage = useMemo(
     () => (
       <div className="gallery__page gallery__page--detail">
-        <p className="podcast__wrapper__content__details--sub-headline">{podcast.description}</p>
+        <p className="podcast__wrapper__content__details--sub-headline">
+          {podcast.description}
+        </p>
       </div>
     ),
     [podcast]
   );
 
-  const pages = useMemo(() => [{ renderItem: () => imagePage }, { renderItem: () => detailPage }], [
-    imagePage,
-    detailPage
-  ]);
+  const pages = useMemo(
+    () => [{ renderItem: () => imagePage }, { renderItem: () => detailPage }],
+    [imagePage, detailPage]
+  );
 
   const gallery = useMemo(
     () => (
@@ -95,22 +99,35 @@ const Podcast: React.FC<PodcastProps> = props => {
 
   return (
     <>
-      <div className="background" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div
+        className="background"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
         <div className="background__overlay"></div>
       </div>
       <div className="podcast__wrapper inner">
         <div className="podcast__wrapper__content">
-          <img src={einsliveLogo} className="logo" />
+          <img src={einsliveLogo} className="logo" alt="1LIVE" />
           {gallery}
           <div className="podcast__wrapper__content__details">
-            <h1 className="podcast__wrapper__content__details--headline">{podcast.title}</h1>
-            <p className="podcast__wrapper__content__details--sub-headline">{podcast.host}</p>
+            <h1 className="podcast__wrapper__content__details--headline">
+              {podcast.title}
+            </h1>
+            <p className="podcast__wrapper__content__details--sub-headline">
+              {podcast.host}
+            </p>
           </div>
 
           <div className="podcast__wrapper__content__details--platforms">
             {podcast.platforms.map((platform: any, index: string) => {
               const platformName = Object.keys(platform)[0];
-              return <Link key={index} for={platformName} link={platform[platformName]} />;
+              return (
+                <Link
+                  key={index}
+                  for={platformName}
+                  link={`/${name}/${platformName}`}
+                />
+              );
             })}
             <a
               href="https://www1.wdr.de/radio/1live/magazin/podcasts/index.html"
@@ -122,9 +139,14 @@ const Podcast: React.FC<PodcastProps> = props => {
           </div>
           <div className="podcast__wrapper__content__footer">
             <span>
-              <a href="https://www1.wdr.de/radio/1live/einslive-impressum-100.html">Impressum</a> |{" "}
-              <a href="https://www1.wdr.de/radio/1live/datenschutz-130.html">Datenschutz</a> |{" "}
-              <a href="https://www1.wdr.de/copyright/index.html">©WDR 2019</a>
+              <a href="https://www1.wdr.de/radio/1live/einslive-impressum-100.html">
+                Impressum
+              </a>{" "}
+              |{" "}
+              <a href="https://www1.wdr.de/radio/1live/datenschutz-130.html">
+                Datenschutz
+              </a>{" "}
+              | <a href="https://www1.wdr.de/copyright/index.html">©WDR 2019</a>
             </span>
           </div>
         </div>
