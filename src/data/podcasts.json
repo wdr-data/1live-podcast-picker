@@ -4,10 +4,10 @@
     "description": "1LIVE verbringt gute Zeit mit guten Leuten. Ganz egal, ob prominent oder nicht – Sophie Passmann trifft sich einmal wöchentlich mit spannenden Menschen und lernt sie gemeinsam mit ihren Hörern kennen.",
     "host": "mit Sophie Passmann",
     "platforms": [
-      { "1live": "https://www1.wdr.de/radio/1live/on-air/gute-leute/index.html" },
-      { "audiothek": "https://www.ardaudiothek.de/gute-leute/33514892" },
       { "spotify": "https://open.spotify.com/show/61CpNRqXS590DJT0ndWd7K" },
       { "apple": "https://podcasts.apple.com/ch/podcast/1live-gute-leute/id115605399" },
+      { "1live": "https://www1.wdr.de/radio/1live/on-air/gute-leute/index.html" },
+      { "audiothek": "https://www.ardaudiothek.de/gute-leute/33514892" },
       {
         "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtdGFsay9laW5zbGl2ZS10YWxrLTEwNC5wb2RjYXN0"
       },
@@ -21,12 +21,12 @@
     "description": "Bastian Bielendorfer und Özcan Cosar sind erfolgreiche Comedians. Ihre Wege dahin verliefen unterschiedlich. Ihre Blicke auf Deutschland sind vielschichtig. Im Podcast gilt: Reden hilft und zusammen lachen erst recht.",
     "host": "mit Bastian Bielendorfer und Özcan Cosar",
     "platforms": [
+      { "spotify": "https://open.spotify.com/show/0bKZvIyv6mhQeiuqBsCJIO?si=ltku3S7TQw21s4x2e0HAxA" },
+      { "apple": "https://podcasts.apple.com/de/podcast/1live-bratwurst-und-baklava/id1481370694" },
       { "1live": "https://www1.wdr.de/radio/1live/on-air/bratwurst-und-baklava/index.html" },
       {
         "audiothek": "https://www.ardaudiothek.de/bratwurst-und-baklava-zwei-comedians-mit-zwei-geschichten-in-einem-land/67197748"
       },
-      { "spotify": "https://open.spotify.com/show/0bKZvIyv6mhQeiuqBsCJIO?si=ltku3S7TQw21s4x2e0HAxA" },
-      { "apple": "https://podcasts.apple.com/de/podcast/1live-bratwurst-und-baklava/id1481370694" },
       {
         "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvYnJhdHd1cnN0LXVuZC1iYWtsYXZhL2JyYXR3dXJzdC11bmQtYmFrbGF2YS0xMDYucG9kY2FzdA%3D%3D"
       },
