@@ -2,7 +2,8 @@ import React, { useMemo, useRef } from "react";
 import { RouteComponentProps } from "@reach/router";
 import ImageGallery from "react-image-gallery";
 
-import Link from "./Link";
+import Link, { Platform } from "./Link";
+import { TrackingLink } from "./TrackingLink";
 
 import podcastsJson from "../data/podcasts.json";
 import "./Podcast.scss";
@@ -41,11 +42,11 @@ interface PodcastProps extends RouteComponentProps {
 }
 
 const Podcast: React.FC<PodcastProps> = props => {
-  const name = props.name || "";
+  const name = props.name!;
 
   const galleryRef = useRef<ImageGallery>(null);
 
-  const podcast = useMemo(() => name && (podcastsJson[name] as any), [name]);
+  const podcast = useMemo(() => podcastsJson[name], [name]);
 
   const isIE = useMemo(() => checkBrowserForIE(), []);
   const podcastImage = isIE ? imagesIE[name] : images[name];
@@ -119,23 +120,26 @@ const Podcast: React.FC<PodcastProps> = props => {
           </div>
 
           <div className="podcast__wrapper__content__details--platforms">
-            {podcast.platforms.map((platform: any, index: string) => {
-              const platformName = Object.keys(platform)[0];
-              return (
-                <Link
-                  key={index}
-                  for={platformName}
-                  link={`/${name}/${platformName}`}
-                />
-              );
-            })}
-            <a
-              href="/alle"
+            {podcast.platforms.map(
+              ({ name: platformName, url }, index: number) => {
+                return (
+                  <Link
+                    key={index}
+                    podcast={name}
+                    platform={platformName as Platform}
+                    href={url}
+                  />
+                );
+              }
+            )}
+            <TrackingLink
+              href="https://www1.wdr.de/radio/1live/magazin/podcasts/index.html"
+              id="alle"
               className="podcast__wrapper__content__details--more"
             >
               <span>Alle 1LIVE Podcasts</span>
               <img src={iconArrowRight} alt="Pfeil" />
-            </a>
+            </TrackingLink>
           </div>
           <div className="podcast__wrapper__content__footer">
             <span>
