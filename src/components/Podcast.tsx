@@ -42,7 +42,7 @@ interface PodcastProps extends RouteComponentProps {
 }
 
 const Podcast: React.FC<PodcastProps> = props => {
-  const name = (props.name!).replace(decodeURIComponent("%E2%80%AC"), '');
+  const name = (props.name!).replace(decodeURIComponent("%E2%80%AC"), '') as keyof typeof podcastsJson;
 
   const galleryRef = useRef<ImageGallery>(null);
 
