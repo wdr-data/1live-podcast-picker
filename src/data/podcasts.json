@@ -65,5 +65,28 @@
         "url": "https://www1.wdr.de/mediathek/audio/1live/bratwurst-und-baklava/bratwurst-und-baklava-106.podcast"
       }
     ]
+  },
+  "podcastfestival": {
+    "title": "1LIVE Podcastfestival",
+    "description": "Erlebt eure Lieblingspodcasts live auf der Bühne. Mit dabei: Beste Freundinnen/Beste Vaterfreuden, Die Blaue Stunde, Reisen Reisen, F**k Forward, Radio Nukular, Schwarzes Konfetti, The Pod, Serienjunkies und Gemischtes Hack.",
+    "host": "",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/6wissCiESMwOqGEn0g16cL"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/1live-podcastfestival/id1448378480"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtcG9kY2FzdGZlc3RpdmFsL3BvZGNhc3RmZXN0aXZhbC0xMDgucG9kY2FzdA"
+      },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/1live-podcastfestival/podcastfestival-108.podcast"
+      }
+    ]
   }
 }
