@@ -44,7 +44,7 @@
 .podcast__wrapper__content__details--sub-headline {
   font-size: 1em;
   line-height: 1.8rem;
-  margin-top: 0;
+  margin: 0;
 }
 
 .podcast__wrapper__content__details--platforms {
@@ -113,7 +113,7 @@
 
 .gallery__page--detail {
   height: calc(100vw - 4rem);
-  padding: 2rem;
+  padding: 1rem 2rem;
   white-space: normal;
   text-align: center;
   display: flex;
