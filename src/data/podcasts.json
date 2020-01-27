@@ -80,6 +80,10 @@
         "url": "https://podcasts.apple.com/de/podcast/1live-podcastfestival/id1448378480"
       },
       {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/magazin/podcasts/1live-podcastfestival100.html"
+      },
+      {
         "name": "google",
         "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtcG9kY2FzdGZlc3RpdmFsL3BvZGNhc3RmZXN0aXZhbC0xMDgucG9kY2FzdA"
       },
