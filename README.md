@@ -1,3 +1,21 @@
+# 1LIVE Podcast Picker
+
+Eine kleine Website, auf der Podcasts präsentiert werden und Nutzer wählen können, bei welchem Service sie den Podcast hören möchten.
+
+Beispiel-Seite: https://podcast.1live.de/gute-leute
+
+Der Code basiert auf dem PULS Podcast-Picker von Sebastian Mark (PULS).
+
+## Team
+- Projektleitung: Robert Rack (1LIVE)
+- Design: Thomas Schlömer (1LIVE)
+- Umsetzung: Jannes Höke
+
+## Copyright
+Der Programmcode ist lizenziert unter der MIT-Lizenz. Für Grafiken, Design und Schriften werden alle Rechte vorbehalten.
+
+# Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
