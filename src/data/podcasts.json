@@ -92,5 +92,24 @@
         "url": "https://www1.wdr.de/mediathek/audio/1live/1live-podcastfestival/podcastfestival-108.podcast"
       }
     ]
+  },
+  "dumm-gefragt": {
+    "title": "Dumm gefragt",
+    "description": "Sind Flugbegleiter nur Kellner? Und gehen Fußballfans nur zum Saufen ins Stadion? Es gibt viele Klischees und Vorurteile. Aber was ist wirklich dran? In „1LIVE Dumm gefragt“ findet es unser Moderator Fritz Schaefer heraus und stellt die Fragen, die sonst keiner stellt.",
+    "host": "mit Fritz Schaefer",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/1UKaUABFLYOoKfftjGfIx5"
+      },
+      {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/magazin/dumm-gefragt/podcast-dumm-gefragt-mit-fritz-schaefer-100.html"
+      },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/dumm-gefragt-106.podcast"
+      }
+    ]
   }
 }
