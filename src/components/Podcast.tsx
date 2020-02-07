@@ -150,7 +150,7 @@ const Podcast: React.FC<PodcastProps> = props => {
               <a href="https://www1.wdr.de/radio/1live/datenschutz-130.html">
                 Datenschutz
               </a>{" "}
-              | <a href="https://www1.wdr.de/copyright/index.html">©WDR 2019</a>
+              | <a href="https://www1.wdr.de/copyright/index.html">©WDR 2020</a>
             </span>
           </div>
         </div>
