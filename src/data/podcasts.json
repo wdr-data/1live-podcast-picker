@@ -103,8 +103,20 @@
         "url": "https://open.spotify.com/show/1UKaUABFLYOoKfftjGfIx5"
       },
       {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/1live-dumm-gefragt/id1497872625"
+      },
+      {
         "name": "1live",
         "url": "https://www1.wdr.de/radio/1live/magazin/dumm-gefragt/podcast-dumm-gefragt-mit-fritz-schaefer-100.html"
+      },
+      {
+        "name": "audiothek",
+        "url": "https://audiothek.ardmediathek.de/programsets/71643360"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvZHVtbS1nZWZyYWd0L2R1bW0tZ2VmcmFndC0xMDYucG9kY2FzdA"
       },
       {
         "name": "rss",
