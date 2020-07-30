@@ -123,5 +123,24 @@
         "url": "https://www1.wdr.de/mediathek/audio/1live/dumm-gefragt-106.podcast"
       }
     ]
+  },
+  "die-playlist-meines-lebens": {
+    "title": "1LIVE Die Playlist meines Lebens",
+    "description": "Prominente Musiker bringen für diesen Podcast die Songs mit, die sie geprägt haben und erzählen euch exklusiv, was sie ihnen bedeuten und welche privaten Erinnerungen sie damit verbinden. ",
+    "host": "",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/1M0gCyyqerD0sXkDnpbhWv"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/1live-die-playlist-meines-lebens/id1524811921"
+      },
+      {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/magazin/podcasts/die-playlist-meines-lebens-104.html"
+      }
+    ]
   }
 }
