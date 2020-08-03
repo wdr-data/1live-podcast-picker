@@ -22,7 +22,7 @@
       },
       {
         "name": "google",
-        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtdGFsay9laW5zbGl2ZS10YWxrLTEwNC5wb2RjYXN0"
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtdGFsay9laW5zbGl2ZS10YWxrLTEwNC5wb2RjYXN0"
       },
       {
         "name": "tunein",
@@ -58,7 +58,7 @@
       },
       {
         "name": "google",
-        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvYnJhdHd1cnN0LXVuZC1iYWtsYXZhL2JyYXR3dXJzdC11bmQtYmFrbGF2YS0xMDYucG9kY2FzdA%3D%3D"
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvYnJhdHd1cnN0LXVuZC1iYWtsYXZhL2JyYXR3dXJzdC11bmQtYmFrbGF2YS0xMDYucG9kY2FzdA%3D%3D"
       },
       {
         "name": "rss",
@@ -85,7 +85,7 @@
       },
       {
         "name": "google",
-        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtcG9kY2FzdGZlc3RpdmFsL3BvZGNhc3RmZXN0aXZhbC0xMDgucG9kY2FzdA"
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtcG9kY2FzdGZlc3RpdmFsL3BvZGNhc3RmZXN0aXZhbC0xMDgucG9kY2FzdA"
       },
       {
         "name": "rss",
@@ -112,11 +112,11 @@
       },
       {
         "name": "audiothek",
-        "url": "https://audiothek.ardmediathek.de/programsets/71643360"
+        "url": "https://www.ardaudiothek.de/dumm-gefragt-der-podcast-mit-fritz-schaefer/71643360"
       },
       {
         "name": "google",
-        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvZHVtbS1nZWZyYWd0L2R1bW0tZ2VmcmFndC0xMDYucG9kY2FzdA"
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvZHVtbS1nZWZyYWd0L2R1bW0tZ2VmcmFndC0xMDYucG9kY2FzdA"
       },
       {
         "name": "rss",
