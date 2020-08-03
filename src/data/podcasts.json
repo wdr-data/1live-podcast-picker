@@ -140,6 +140,18 @@
       {
         "name": "1live",
         "url": "https://www1.wdr.de/radio/1live/magazin/podcasts/die-playlist-meines-lebens-104.html"
+      },
+      {
+        "name": "audiothek",
+        "url": "https://www.ardaudiothek.de/die-playlist-meines-lebens/78255738"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvZGllLXBsYXlsaXN0LW1laW5lcy1sZWJlbnMvZGllLXBsYXlsaXN0LW1laW5lcy1sZWJlbnMtMTA4LnBvZGNhc3Q"
+      },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/die-playlist-meines-lebens/die-playlist-meines-lebens-108.podcast"
       }
     ]
   }
