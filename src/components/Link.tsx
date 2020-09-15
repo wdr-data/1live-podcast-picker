@@ -74,15 +74,16 @@ const Link: React.FC<{
   ...props
 }) => {
   if (href) {
+    const plat = platforms[platform];
     return (
       <div className={styles.item}>
         <div>
           <img
-            alt={"Logo " + platforms[platform].text}
+            alt={"Logo " + plat.text}
             className={styles.logo}
-            src={platforms[platform].logo}
+            src={plat.logo}
           />
-          <span>{platforms[platform].text}</span>
+          <span>{plat.text}</span>
         </div>
 
         <TrackingLink
@@ -90,9 +91,10 @@ const Link: React.FC<{
           id={`${podcast}/${platform}`}
           target="_self"
           onTouchStart={() => true}
+          aria-label={`${plat.buttonText} auf ${plat.text}`}
           {...props}
         >
-          <span>{platforms[platform].buttonText}</span>
+          <span>{plat.buttonText}</span>
         </TrackingLink>
       </div>
     );
