@@ -41,6 +41,6 @@
     "@types/classnames": "^2.2.9",
     "@types/reach__router": "^1.2.6",
     "@types/react-image-gallery": "^0.8.4",
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   }
 }
